@@ -118,6 +118,7 @@ hubspot.contacts.getById(id, cb)
 hubspot.contacts.getByIdBatch(ids, cb)
 hubspot.contacts.getByToken(utk, cb)
 hubspot.contacts.update(id, data, cb)
+hubspot.contacts.updateByEmail(email, data, cb)
 hubspot.contacts.create(data, cb)
 hubspot.contacts.createOrUpdateBatch(data, cb) // data = [{ vid/email: '', properties: [] }]
 hubspot.contacts.search(query, cb)
